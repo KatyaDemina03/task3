@@ -5,7 +5,7 @@
 int main(int argc, char *argv[]) {
 
   printf("ARGC = %d\nARGV = %s\n\n", argc, argv[0]);
-  if (argc != 4) { // если количество аргументов не равно 4
+  if (argc != 4) {
     printf("Error!!! Wrong number of arguments (expected 3 after call program)\n");
     return -1;
   } else {
